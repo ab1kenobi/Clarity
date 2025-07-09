@@ -2,12 +2,12 @@ body {
   margin: 0;
   font-family: "Helvetica Neue", sans-serif;
   color: #1c1c1c;
-  background-color: #f9f9f9;
+  background-color: white;
 }
 
 .hero {
   background: url('https://via.placeholder.com/1500x800') center/cover no-repeat;
-  color: white;
+  color: black;
   padding: 80px 20px;
   text-align: center;
   position: relative;
@@ -15,9 +15,9 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 20px 40px;
-  background: rgba(0, 0, 0, 0.6);
+  background: white;
   position: absolute;
   top: 0;
   width: 100%;
@@ -116,7 +116,7 @@ body {
 
 .disclaimer {
   font-size: 0.85rem;
-  color: #666;
+  color: white;
   margin-top: 20px;
 }
 
@@ -138,4 +138,13 @@ body {
   color: white;
   text-decoration: none;
   font-size: 0.9rem;
+}
+
+.logo-icon {
+  width: 150px;
+  height: 60px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: contain;
 }
